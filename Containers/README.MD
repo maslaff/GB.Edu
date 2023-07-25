@@ -1,4 +1,5 @@
 cd /proj/gb
+
 docker build -t mariadb:latest .
 
 docker run -it --name mari -p 3306:3306 -v /home/user/db_data/:/var/lib/mysql -d mariadb
