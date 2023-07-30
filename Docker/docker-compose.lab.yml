@@ -1,0 +1,19 @@
+version: '3.9'
+
+services:
+  db:
+    image: mariadb:10.10.2
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: 12345
+    deploy:
+    	replicas: 2
+
+  web:
+    image: nginx:alpine3.17
+    restart: always
+    ports:
+      - 80:8081
+    deploy:
+    	replicas: 2
+
