@@ -7,13 +7,19 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: 12345
     deploy:
-    	replicas: 2
+      replicas: 2
 
   web:
     image: nginx:alpine3.17
     restart: always
-    ports:
-      - 80:8081
-    deploy:
-    	replicas: 2
 
+    ports:
+      - target: 4003
+        published: 4004
+        protocol: tcp
+        mode: host
+    deploy:
+      replicas: 2
+      placement:
+        constraints:
+          - "node.labels.TAG==srv05"
