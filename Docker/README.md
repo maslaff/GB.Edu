@@ -16,16 +16,15 @@ docker swarm join --token [token] [IP:port]
 ```
 docker stack deploy --with-registry-auth -c ./docker-compose.prod.yaml gbstack;
 ```
-![image](https://github.com/maslaff/GB.Edu/assets/33765993/e803c0f4-f6c9-4c6a-9442-808eb2ff954f)
-![image](https://github.com/maslaff/GB.Edu/assets/33765993/28e1bd7e-69e8-42ac-a37c-9fdfe4061c1c)
-
+![1](https://github.com/maslaff/GB.Edu/assets/33765993/f56fad67-94ab-471c-ba9a-164636f8f67c)
+![2](https://github.com/maslaff/GB.Edu/assets/33765993/e962a59b-a366-4561-9d0e-5bdcb5e7b711)
 
 ```
 docker stack deploy --with-registry-auth -c ./docker-compose.dev.yaml gbdev
 docker stack services gbdev
 ```
 ![image](https://github.com/maslaff/GB.Edu/assets/33765993/25e101e3-3423-45f2-9859-9c4d28a6b01b)
-![image](https://github.com/maslaff/GB.Edu/assets/33765993/5ab5153d-2b0c-4677-a729-9cdf503a361c)
+![image443](https://github.com/maslaff/GB.Edu/assets/33765993/f5f20f07-a5f2-407f-980e-022762a22276)
 
 Позже VPS отключили
-![image](https://github.com/maslaff/GB.Edu/assets/33765993/56f497d5-5122-4066-a255-2eb2aafd45cb)
+![rect488](https://github.com/maslaff/GB.Edu/assets/33765993/d356db9f-6122-47c7-a2df-c30f420c16ae)
