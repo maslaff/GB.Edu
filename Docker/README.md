@@ -24,3 +24,8 @@ docker stack deploy --with-registry-auth -c ./docker-compose.prod.yaml gbstack;
 docker stack deploy --with-registry-auth -c ./docker-compose.dev.yaml gbdev
 docker stack services gbdev
 ```
+![image](https://github.com/maslaff/GB.Edu/assets/33765993/25e101e3-3423-45f2-9859-9c4d28a6b01b)
+![image](https://github.com/maslaff/GB.Edu/assets/33765993/5ab5153d-2b0c-4677-a729-9cdf503a361c)
+
+Позже VPS отключили
+![image](https://github.com/maslaff/GB.Edu/assets/33765993/56f497d5-5122-4066-a255-2eb2aafd45cb)
